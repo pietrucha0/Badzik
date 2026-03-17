@@ -1,0 +1,35 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url = env()
+}
+
+enum ScoutRanks {
+    MŁODZIK_OCHOTNICZKA
+    WYWIADOWCA_TROPICIELKA
+    ODKRYWCA_PIONIERKA
+    ĆWIK_SAMARYTANKA
+    HO
+    HR
+}
+
+model Badge{
+    id String @id @default(cuid())
+    name String
+    idea String
+    level String
+    ranks ScoutRanks[]
+    description String
+    tasks Task[]
+}
+
+model Task{
+    id String @id @default(cuid())
+    description String
+    badgeId String
+    badge Badge @relation(fields: [badgeId], references: [id], onDelete: Cascade)
+    
+    }

@@ -1,0 +1,119 @@
+[
+  {
+    "kategoria": "Wyrobienie harcerskie",
+    "sprawnosci": [
+      {
+        "id": "wyga",
+        "nazwa": "Wyga",
+        "poziomy": [
+          {
+            "stopien_gwiazdek": 1,
+            "idea": "Przygotowuje proste urządzenie obozowe. Rozpala ogniska i przygotowuje na nich proste posiłki. Wyznacza kierunki świata.",
+            "powiazanie_stopien": "ochotniczka / młodzik",
+            "zadania": [
+              "Wziąłem udział w obozie lub biwaku pod namiotami. Poznałem zasady bezpieczeństwa i ich przestrzegałem.",
+              "Wyznaczyłem strony świata na dwa sposoby. Poprowadziłem zastęp podczas wędrówki.",
+              "Samodzielnie rozpaliłem ognisko i przygotowałem na nim prosty posiłek (np. podpłomyki).",
+              "Znam i zastosowałem w różnych sytuacjach co najmniej pięć węzłów."
+            ]
+          },
+          {
+            "stopien_gwiazdek": 2,
+            "idea": "Przygotowuje złożone urządzenie obozowe. Umiejętnie buduje szałasy. Przygotowuje złożone posiłki na ognisku.",
+            "powiazanie_stopien": "tropicielka / wywiadowca",
+            "zadania": [
+              "Rozpaliłem ognisko z użyciem wyłącznie naturalnych materiałów i doprowadziłem miejsce do pierwotnego stanu.",
+              "Wraz z zastępem rozstawiłem namiot i zbudowałem przydatne urządzenie obozowe.",
+              "Zbudowałem urządzenie obozowe bez użycia gwoździ (wykorzystując węzły).",
+              "Wziąłem udział w budowie urządzenia wspólnego użytku (np. bramy, latryny).",
+              "Pełniłem służbę wartowniczą na obozie lub biwaku."
+            ]
+          },
+          {
+            "stopien_gwiazdek": 3,
+            "idea": "Potrafi zapewniać sobie i grupie komfortowy byt w terenie (kuchnia, bezpieczeństwo). Kieruje budową urządzeń.",
+            "powiazanie_stopien": "pionierka / odkrywca / samarytanka / ćwik",
+            "zadania": [
+              "Wziąłem udział w rajdzie z nocowaniem na łonie przyrody w duchu Leave No Trace.",
+              "Kierowałem służbą kuchenną lub zastępem wartowniczym.",
+              "Brałem udział w konserwacji sprzętu drużyny/szczepu.",
+              "Samodzielnie ułożyłem i rozpaliłem 3 rodzaje ognisk.",
+              "Pokierowałem budową prostego urządzenia obozowego przez zastęp.",
+              "Pełniłem funkcję oboźnego, kwatermistrza lub zaopatrzeniowca na wyjeździe."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "swiadomy_harcerz",
+        "nazwa": "Świadomy harcerz",
+        "poziomy": [
+          {
+            "stopien_gwiazdek": 1,
+            "idea": "Zna zwyczaje i obrzędy własnej drużyny. Poznaje podstawowe informacje o ruchu harcerskim.",
+            "powiazanie_stopien": "ochotniczka / młodzik",
+            "zadania": [
+              "Noszę mundur zgodnie z regulaminem, potrafię go złożyć tak, by się nie pogniótł.",
+              "Znam tradycje drużyny, potrafię przyjąć postawę zasadniczą i ustawić się w szyku.",
+              "Mam śpiewnik harcerski i zaśpiewałem przynajmniej 10 piosenek.",
+              "Wiem jak oznacza się funkcje w zastępie i drużynie. Znam kolory sznurów.",
+              "Dowiedziałem się, kto i kiedy założył skauting i harcerstwo."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kategoria": "Zdrowie i Sport",
+    "sprawnosci": [
+      {
+        "id": "ratownik",
+        "nazwa": "Ratownik",
+        "poziomy": [
+          {
+            "stopien_gwiazdek": 1,
+            "idea": "Udziela pierwszej pomocy w sytuacjach domowych. Zna numery alarmowe.",
+            "powiazanie_stopien": "ochotniczka / młodzik",
+            "zadania": [
+              "Opatrzyłem ranę, zabezpieczyłem oparzenie i zareagowałem właściwie przy omdleniu.",
+              "Znam numery alarmowe i potrafię podać niezbędne informacje dyspozytorowi.",
+              "Unieruchomiłem rękę w przypadku urazu.",
+              "Potrafię ocenić bezpieczeństwo i bezpiecznie zdjąć rękawiczki po udzieleniu pomocy."
+            ]
+          },
+          {
+            "stopien_gwiazdek": 2,
+            "idea": "Udziela pomocy w typowych urazach w szkole i na obozie.",
+            "powiazanie_stopien": "tropicielka / wywiadowca",
+            "zadania": [
+              "Skompletowałem apteczkę osobistą.",
+              "Ułożyłem poszkodowanego w pozycji bezpiecznej.",
+              "Wykonałem prawidłowo uciśnięcia klatki piersiowej u osoby dorosłej.",
+              "Udzieliłem pomocy przy ukąszeniu przez owady.",
+              "Postąpiłem prawidłowo przy krwotoku z nosa i założyłem opatrunek uciskowy.",
+              "Zabezpieczyłem poszkodowanego przed utratą ciepła (termoizolacja)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lider_zdrowia",
+        "nazwa": "Lider zdrowia",
+        "poziomy": [
+          {
+            "stopien_gwiazdek": 1,
+            "idea": "Stosuje zasady zdrowego odżywiania. Uprawia aktywność fizyczną.",
+            "powiazanie_stopien": "ochotniczka / młodzik",
+            "zadania": [
+              "Przez 2 tygodnie sam przygotowywałem zdrowe drugie śniadanie do szkoły.",
+              "Wziąłem udział w min. 4-godzinnej wycieczce i samodzielnie spakowałem plecak.",
+              "Przez okres próby regularnie ćwiczyłem wybraną dyscyplinę i poprawiłem wynik.",
+              "Zademonstrowałem umiejętność jazdy na 3 różnych sprzętach (np. rower, rolki, narty)."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
