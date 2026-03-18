@@ -4,32 +4,40 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url = env()
 }
+
+// enum Categories {
+
+// }
 
 enum ScoutRanks {
-    MŁODZIK_OCHOTNICZKA
-    WYWIADOWCA_TROPICIELKA
-    ODKRYWCA_PIONIERKA
-    ĆWIK_SAMARYTANKA
-    HO
-    HR
+  mlodzik_ochotniczka
+  wywiadowca_tropicielka
+  odkrywca_pionierka
+  cwik_samarytanka
+  ho
+  hr
 }
 
-model Badge{
-    id String @id @default(cuid())
-    name String
-    idea String
-    level String
-    ranks ScoutRanks[]
-    description String
-    tasks Task[]
+enum Levels {
+  niebieski @map("1")
+  zielony   @map("2")
+  czerwony  @map("3")
+  czarny    @map("4")
 }
 
-model Task{
-    id String @id @default(cuid())
-    description String
-    badgeId String
-    badge Badge @relation(fields: [badgeId], references: [id], onDelete: Cascade)
-    
-    }
+model Badge {
+  id    String       @id @default(cuid())
+  name  String
+  idea  String
+  level Levels
+  rank  ScoutRanks[]
+  tasks Task[]
+}
+
+model Task {
+  id          String @id @default(cuid())
+  description String
+  badgeId     String
+  badge       Badge  @relation(fields: [badgeId], references: [id], onDelete: Cascade)
+}
